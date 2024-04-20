@@ -1,0 +1,6 @@
+@ ECHO OFF
+echo "script created by salem"
+call C:\Users\salem\anaconda3\Scripts\activate.bat
+call cd %~dp0
+call conda activate I:\exercice\env
+call jupyter notebook
